@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-use-system" type="bool" value="true"/>
+  <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_UNDERLINE"/>
+  <property name="misc-cursor-blinks" type="bool" value="true"/>
+  <property name="misc-default-geometry" type="string" value="52x24"/>
+  <property name="color-palette" type="string" value="rgb(0,0,0);rgb(237,51,59);rgb(38,162,105);rgb(170,85,0);rgb(64,132,191);rgb(129,61,156);rgb(0,170,170);rgb(170,170,170);rgb(85,85,85);rgb(255,85,85);rgb(85,255,85);rgb(255,255,85);rgb(85,85,255);rgb(129,61,156);rgb(85,255,255);rgb(255,255,255)"/>
+  <property name="color-bold-is-bright" type="bool" value="false"/>
+  <property name="color-background-vary" type="bool" value="true"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_SOLID"/>
+  <property name="background-darkness" type="double" value="0.68000000000000005"/>
+  <property name="misc-copy-on-select" type="bool" value="true"/>
+</channel>
