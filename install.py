@@ -17,7 +17,7 @@ old_dots = [
 os.system("mkdir -p ~/dotfiles_old")
 
 for dot in old_dots:
-    print(f"mv {dot} ~/dotfiles_old")
+    os.system(f"mv {dot} ~/dotfiles_old")
 
 new_dots = [
     "~/dotfiles/fish-shell/config.fish",
@@ -36,4 +36,4 @@ new_dots = [
 dots = dict(zip(old_dots, new_dots))
 
 for old_dot in dots:
-    print(f"ln -s {dots[old_dot]} {old_dot}")
+    os.system(f"ln -s {dots[old_dot]} {old_dot}")
