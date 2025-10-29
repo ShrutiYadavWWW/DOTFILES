@@ -13,6 +13,7 @@
       <property name="size" type="int" value="40"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="9"/>
+        <value type="int" value="6"/>
         <value type="int" value="3"/>
         <value type="int" value="2"/>
         <value type="int" value="5"/>
@@ -73,6 +74,11 @@
     </property>
     <property name="plugin-9" type="string" value="whiskermenu">
       <property name="recent" type="array">
+        <value type="string" value="cairo-dock.desktop"/>
+        <value type="string" value="kvantummanager.desktop"/>
+        <value type="string" value="cairo-dock-cairo.desktop"/>
+        <value type="string" value="pavucontrol-qt.desktop"/>
+        <value type="string" value="lximage-qt.desktop"/>
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="xfce4-accessibility-settings.desktop"/>
@@ -105,6 +111,11 @@
         <value type="string" value="176164439610.desktop"/>
         <value type="string" value="17616442189.desktop"/>
         <value type="string" value="17616436896.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-6" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17616760491.desktop"/>
       </property>
     </property>
   </property>

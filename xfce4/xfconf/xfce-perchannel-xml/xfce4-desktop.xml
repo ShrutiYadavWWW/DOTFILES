@@ -6,7 +6,7 @@
     <property name="screen0" type="empty">
       <property name="monitorBuiltinDisplay" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/data/data/com.termux/files/usr/share/backgrounds/xfce/xfce-leaves.svg"/>
+          <property name="last-image" type="string" value="/data/data/com.termux/files/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
         </property>
       </property>
       <property name="monitor0" type="empty">

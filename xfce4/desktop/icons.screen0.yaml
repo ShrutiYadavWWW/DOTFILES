@@ -4,6 +4,16 @@
 configs:
 - level: 0
   monitors:
+  - id: "5709fc3168ec609e37cbc3c8b36fd12a99ff5620"
+    display_name: "screen"
+    geometry:
+      x: 0
+      y: 0
+      width: 1280
+      height: 1024
+  icons: {}
+- level: 0
+  monitors:
   - id: "06ded4c1942eeb82454c01c7bd52780b2fe51421"
     display_name: "Builtin Display"
     geometry:
@@ -45,13 +55,3 @@ configs:
     "/data/data/com.termux/files/home/Desktop/nvim.desktop":
       row: 6
       col: 0
-- level: 0
-  monitors:
-  - id: "5709fc3168ec609e37cbc3c8b36fd12a99ff5620"
-    display_name: "screen"
-    geometry:
-      x: 0
-      y: 0
-      width: 1280
-      height: 1024
-  icons: {}
