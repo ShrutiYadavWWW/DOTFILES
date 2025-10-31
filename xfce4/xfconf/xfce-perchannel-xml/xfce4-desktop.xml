@@ -6,7 +6,7 @@
     <property name="screen0" type="empty">
       <property name="monitorBuiltinDisplay" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/data/data/com.termux/files/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
+          <property name="last-image" type="string" value="/data/data/com.termux/files/home/Downloads/Pc Lock Screen Wallpaper Aesthetic.jpg"/>
         </property>
       </property>
       <property name="monitor0" type="empty">
@@ -20,5 +20,9 @@
   <property name="last" type="empty">
     <property name="window-width" type="int" value="781"/>
     <property name="window-height" type="int" value="580"/>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="style" type="int" value="2"/>
+    <property name="show-hidden-files" type="bool" value="true"/>
   </property>
 </channel>

@@ -22,3 +22,14 @@ set -g USER Shruti
 fzf --fish | source
 # set up xkeyboard
 export XKB_CONFIG_ROOT=/data/data/com.termux/files/usr/share/xkeyboard-config-2
+
+## Alias
+alias l='ls -sAh'
+alias v='nvim'
+alias ff='fastfetch'
+alias nve="cd ~/Projects/Python/Web_scraping/"
+alias nv='cd ~/novels/Completed/ && ls'
+alias py='ipython'
+alias pyt='python'
+alias openxfce='fish ~/.shortcuts/tasks/openx11-xfce.sh'
+alias news='python ~/Projects/Python/automate/get-news.py'
