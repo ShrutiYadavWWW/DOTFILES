@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=virtual keyboard
+Comment=
+Exec=xvkbd -geometry 790x300+0+810
+Icon=input-keyboard-virtual
+Path=
+Terminal=false
+StartupNotify=false
+X-XFCE-Source=file:///data/data/com.termux/files/home/Desktop/xvkbd.desktop

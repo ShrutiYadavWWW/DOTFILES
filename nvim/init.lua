@@ -4,7 +4,6 @@ vim.opt.termguicolors = true
 vim.cmd([[
 
 let g:onedark_config = {'style': 'deep', 'transparent': v:false}
-" colo onedark
 tnoremap <C-w> <C-\><C-o><C-w>
 
 ]])

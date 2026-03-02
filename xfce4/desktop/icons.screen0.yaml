@@ -4,6 +4,16 @@
 configs:
 - level: 0
   monitors:
+  - id: "06088a009b0819779740a3263a83432771e01832"
+    display_name: "VNC-0"
+    geometry:
+      x: 0
+      y: 0
+      width: 1024
+      height: 768
+  icons: {}
+- level: 0
+  monitors:
   - id: "06ded4c1942eeb82454c01c7bd52780b2fe51421"
     display_name: "Builtin Display"
     geometry:
@@ -12,35 +22,59 @@ configs:
       width: 800
       height: 1232
   icons:
-    "/data/data/com.termux/files/home":
-      row: 0
+    "/data/data/com.termux/files/home/Desktop/home":
+      row: 5
+      col: 0
+    "/data/data/com.termux/files/home/Desktop/network.desktop":
+      row: 3
+      col: 0
+    "/data/data/com.termux/files/home/Desktop/user-home.desktop":
+      row: 4
+      col: 0
+    "/data/data/com.termux/files/home/Desktop/browsh.desktop":
+      row: 1
+      col: 3
+    "/data/data/com.termux/files/home/Desktop/nvim.desktop":
+      row: 6
       col: 0
     "/data/data/com.termux/files/home/Desktop/xfce4-web-browser.desktop":
-      row: 3
+      row: 5
       col: 0
     "/data/data/com.termux/files/home/Desktop/panel-preferences.desktop":
       row: 4
       col: 0
-    "/data/data/com.termux/files/home/Desktop/home":
+    "/data/data/com.termux/files/home/Desktop/.goutputstream-4QV3E3":
       row: 0
       col: 1
-    "/data/data/com.termux/files/home/Desktop/Xfce-Theme-Manager.desktop":
-      row: 2
-      col: 0
-    "/data/data/com.termux/files/home/Desktop/nvim.desktop":
-      row: 6
-      col: 0
-    "/data/data/com.termux/files/home/Desktop/xfce-ui-settings.desktop":
-      row: 2
-      col: 5
     "/":
       row: 1
       col: 0
     "/data/data/com.termux/files/home/Desktop/kitty.desktop":
       row: 2
       col: 1
+    "/data/data/com.termux/files/home":
+      row: 0
+      col: 0
     "/data/data/com.termux/files/home/Desktop/Chromium.desktop":
+      row: 3
+      col: 1
+    "/data/data/com.termux/files/home/Desktop/.goutputstream-53GPF3":
+      row: 1
+      col: 1
+    "/data/data/com.termux/files/home/Desktop/xfce-ui-settings.desktop":
+      row: 4
+      col: 1
+    "/data/data/com.termux/files/home/Desktop/xvkbd.desktop":
+      row: 5
+      col: 1
+    "/data/data/com.termux/files/home/Desktop/computer.desktop":
       row: 2
+      col: 0
+    "/data/data/com.termux/files/home/Desktop/Xfce-Theme-Manager.desktop":
+      row: 1
+      col: 0
+    "/data/data/com.termux/files/home/Desktop/.goutputstream-KQ0TF3":
+      row: 1
       col: 1
     "/data/data/com.termux/files/home/Desktop/xfce4-terminal-emulator.desktop":
       row: 5

@@ -13,6 +13,7 @@ vim.opt.timeoutlen = 400
 vim.opt.undofile = true
 vim.opt.updatetime = 100
 vim.opt.wrap = true
+vim.opt.foldmethod = 'indent'
 vim.cmd([[
 set path^=~/.vim/,~/.config/nvim/*,~/.config/*,~/.termux/**,~/novels,~/Projects/
 set wildignore+=*node_modules/**

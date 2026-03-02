@@ -11,7 +11,7 @@ old_dots = [
     "~/.config/xfce4/panel",
     "~/.config/xfce4/xfconf",
     "~/.config/xfce4/xfwm4",
-    "~/.vimrc",
+    "~/.vim/vimrc",
 ]
 
 os.system("mkdir -p ~/dotfiles_old")

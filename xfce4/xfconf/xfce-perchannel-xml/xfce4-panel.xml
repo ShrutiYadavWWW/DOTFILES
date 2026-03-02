@@ -10,16 +10,18 @@
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
-      <property name="size" type="uint" value="37"/>
+      <property name="size" type="int" value="40"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="9"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="6"/>
+        <value type="int" value="13"/>
         <value type="int" value="5"/>
         <value type="int" value="11"/>
         <value type="int" value="23"/>
         <value type="int" value="8"/>
+        <value type="int" value="10"/>
         <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="4"/>
@@ -39,7 +41,7 @@
       </property>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="enter-opacity" type="uint" value="100"/>
-      <property name="background-image" type="string" value="file:///data/data/com.termux/files/home/storage/downloads/250801_152840.jpg"/>
+      <property name="background-image" type="string" value=""/>
       <property name="background-alpha" type="int" value="100"/>
       <property name="background-color" type="array">
         <value type="uint" value="56540"/>
@@ -74,10 +76,13 @@
     </property>
     <property name="plugin-9" type="string" value="whiskermenu">
       <property name="recent" type="array">
-        <value type="string" value="xfce-session-settings.desktop"/>
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="Xfce-Theme-Manager.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-mime-settings.desktop"/>
+        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
         <value type="string" value="xfce4-accessibility-settings.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
       </property>
     </property>
     <property name="plugin-1" type="string" value="directorymenu">
@@ -100,6 +105,8 @@
     <property name="plugin-5" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17616436755.desktop"/>
+        <value type="string" value="17623729281.desktop"/>
+        <value type="string" value="17623729302.desktop"/>
         <value type="string" value="176164439610.desktop"/>
         <value type="string" value="17616442189.desktop"/>
         <value type="string" value="17616436896.desktop"/>
@@ -113,6 +120,18 @@
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-10" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-13" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17625085882.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="false"/>
+      <property name="show-label" type="bool" value="false"/>
     </property>
   </property>
 </channel>
