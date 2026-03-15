@@ -23,14 +23,14 @@ configs:
       height: 1232
   icons:
     "/data/data/com.termux/files/home/Desktop/home":
-      row: 5
-      col: 0
+      row: 2
+      col: 1
     "/data/data/com.termux/files/home/Desktop/network.desktop":
-      row: 3
+      row: 2
       col: 0
     "/data/data/com.termux/files/home/Desktop/user-home.desktop":
-      row: 4
-      col: 0
+      row: 0
+      col: 1
     "/data/data/com.termux/files/home/Desktop/browsh.desktop":
       row: 1
       col: 3
@@ -68,8 +68,8 @@ configs:
       row: 5
       col: 1
     "/data/data/com.termux/files/home/Desktop/computer.desktop":
-      row: 2
-      col: 0
+      row: 1
+      col: 1
     "/data/data/com.termux/files/home/Desktop/Xfce-Theme-Manager.desktop":
       row: 1
       col: 0

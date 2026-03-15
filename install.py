@@ -1,5 +1,11 @@
 import os
 
+print("Installing packages...")
+os.system(
+    "pkg install fish vim neovim python xfce4 xfdesktop xfce4-whiskermenu-plugin xfce4-docklike-plugin firefox -y"
+)
+
+print("Backing up old files")
 # bkp old dotfiles
 old_dots = [
     "~/.config/fish/config.fish",
@@ -32,8 +38,11 @@ new_dots = [
     "~/dotfiles/vimrc",
 ]
 
+print("Creating symlinks")
 # create symlink for dotfiles
 dots = dict(zip(old_dots, new_dots))
 
 for old_dot in dots:
     os.system(f"ln -s {dots[old_dot]} {old_dot}")
+
+print("Done!")

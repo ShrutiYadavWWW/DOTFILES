@@ -66,6 +66,10 @@ vim.api.nvim_create_autocmd("CursorHold", {
   end,
 })
 
+require("mason-lspconfig").setup {
+    ensure_installed = { "pyrefly" },
+}
+
 -- fuzzy file picker
 -- vim.cmd([[
 --

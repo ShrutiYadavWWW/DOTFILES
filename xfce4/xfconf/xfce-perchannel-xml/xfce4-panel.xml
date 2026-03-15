@@ -76,7 +76,6 @@
     </property>
     <property name="plugin-9" type="string" value="whiskermenu">
       <property name="recent" type="array">
-        <value type="string" value="Xfce-Theme-Manager.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-mime-settings.desktop"/>

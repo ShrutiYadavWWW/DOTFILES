@@ -40,7 +40,7 @@
     <property name="WindowScalingFactor" type="empty"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="SyncThemes" type="bool" value="false"/>
+    <property name="SyncThemes" type="bool" value="true"/>
     <property name="LastCustomDPI" type="int" value="90"/>
   </property>
 </channel>
