@@ -1,6 +1,7 @@
 import os
 
 print("Installing packages...")
+os.system("pkg install x11-repo tur-repo")
 os.system(
     "pkg install fish vim neovim python xfce4 xfdesktop xfce4-whiskermenu-plugin xfce4-docklike-plugin firefox -y"
 )
@@ -24,6 +25,10 @@ os.system("mkdir -p ~/dotfiles_old")
 
 for dot in old_dots:
     os.system(f"mv {dot} ~/dotfiles_old")
+
+os.system(
+    "mkdir -p ~/dotfiles/fish-shell/ ~/dotfiles/nvim/lua ~/dotfiles/xfce4/desktop/ ~/dotfiles/xfce4/panel/,~/dotfiles/xfce4/xfconf/ ~/dotfiles/xfce4/xfwm4/"
+)
 
 new_dots = [
     "~/dotfiles/fish-shell/config.fish",
